@@ -30,14 +30,17 @@ module.exports = {
         }
       },
       {
-        test: /\.s[ac]ss$/i,
+        test: /\.css$/,
         use: [
           // Creates `style` nodes from JS strings
-          'style-loader',
+          { loader: 'style-loader' },
           // Translates CSS into CommonJS
-          'css-loader',
-          // Compiles Sass to CSS
-          // 'sass-loader',
+          {
+            loader: 'css-loader',
+            options: {
+              modules: true
+            }
+          },
         ],
       },
     ]

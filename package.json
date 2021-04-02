@@ -4,6 +4,8 @@
   "description": "wedding proposal",
   "main": "index.js",
   "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.3",
@@ -23,7 +25,7 @@
   },
   "scripts": {
     "build": "webpack",
-    "dev": "webpack serve --hot --open",
+    "dev": "webpack serve --hot",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Edwin Menendez",
