@@ -12,6 +12,7 @@ module.exports = {
   // devServer
   devServer: {
     publicPath: '/build/',
+    historyApiFallback: true,
   },
   // mode: development/production
   mode: 'development',
