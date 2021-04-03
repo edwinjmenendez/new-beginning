@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className={styles.header} >
       <h1>Kelly Palencia</h1>
-      <div className={styles.icons} >
+      <div className={styles.iconsContainer} >
         <FavoriteIcon style={{ width: '25px', height: '50px' }} />
         <WcIcon style={{ width: '50px', height: '50px' }} />
         <FavoriteIcon style={{ width: '25px', height: '50px' }} />

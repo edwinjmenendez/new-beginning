@@ -12,7 +12,7 @@
   font-weight: 200;
 }
 
-.icons {
+.iconsContainer {
   display: flex;
   padding: 0 40px 0 40px;
   /* box-shadow: 0px 0px 5px 5px #000;

@@ -1,0 +1,10 @@
+.navContainer {
+  display: flex;
+  /* border:  5px solid #000; */
+}
+
+.navLink {
+  color: black;
+  text-decoration: none;
+  width: 100%;
+}

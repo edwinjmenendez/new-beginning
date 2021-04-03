@@ -6,41 +6,34 @@ import {
   Link
 } from "react-router-dom";
 
-// import { 
-//   Events, Home, 
-//   Photos, Proposal, 
-//   // RSVP, Travel,
-//   // WeddingParty,
-//  } from '../screens'
-
 import Events from '../screens/Events'
-import Photos from '../screens/Photos'
 import Home from '../screens/Home'
+import Photos from '../screens/Photos'
 import Proposal from '../screens/Proposal'
+import RSVP from '../screens/RSVP'
+import Travel from '../screens/Travel'
+import styles from './styles/Navigator.css'
 
 const Navigator = () => {
   return (
     <Router>
-      <div>
-      
-        <Link to="/">Home</Link>
-        <Link to="/events">Events</Link>
-        <Link to="/photos">Photos</Link>
-        <Link to="/proposal">Proposal</Link>
-        {/* <Link to="/rsvp">RSVP</Link>
-        <Link to="/travel">Travel</Link>
-        <Link to="/weddingparty">Weddingparty</Link> */}
-      
+      <div> 
+        <div className={styles.navContainer} >
+          <Link className={styles.navLink} to="/">Home</Link>
+          <Link className={styles.navLink} to="/events">Events</Link>
+          <Link className={styles.navLink} to="/rsvp">RSVP</Link>
+          <Link className={styles.navLink} to="/photos">Photos</Link>
+          <Link className={styles.navLink} to="/travel">Travel</Link>
+          <Link className={styles.navLink} to="/proposal">Proposal</Link>
+        </div>
         <hr />
-
         <Switch>
-          <Route exact path='/'><Home /></Route>
-          <Route path='/events'><Events /></Route>
-          <Route path='/photos'><Photos /></Route>
-          <Route path='/proposal'><Proposal /></Route>
-          {/* <Route exact path='/rsvp'><RSVP /></Route>
-          <Route exact path='/travel'><Travel /></Route>
-          <Route exact path='/weddingparty'><WeddingParty /></Route> */}
+          <Route exact path='/' component={Home} />
+          <Route exact path='/events' component={Events} />
+          <Route exact path='/rsvp' component={RSVP} />
+          <Route exact path='/photos' component={Photos} />
+          <Route exact path='/travel' component={Travel} />
+          <Route exact path='/proposal' component={Proposal} />
         </Switch>
       </div>
     </Router>
