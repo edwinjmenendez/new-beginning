@@ -1,10 +1,33 @@
-.navContainer {
-  display: flex;
-  /* border:  5px solid #000; */
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+/* 
+  container of navbar and the routes content
+*/
+.routerContainer {
+  /* border:  1px solid #000; */
 }
 
+/* 
+  container of content inside selected route
+ */
+
+.switchContainer {
+  /* border:  1px solid #000; */
+}
+
+.navContainer {
+  /* border is only on navbar */
+  /* border:  1px solid #000; */
+  display: flex;
+  margin: auto;
+  /* margin-bottom: 20px; */
+  width: 80%;
+}
+
+/* each navigation link */
 .navLink {
-  color: black;
+  color: #000;
+  font-family: 'New Tegomin', serif;
   text-decoration: none;
   width: 100%;
 }
