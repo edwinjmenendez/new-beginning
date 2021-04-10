@@ -18,6 +18,10 @@
 }
 
 .iconsContainer {
-  display: flex;
   padding: 0 40px 0 40px;
+}
+
+.icon {
+  height: 100px;
+  width: 100px;
 }

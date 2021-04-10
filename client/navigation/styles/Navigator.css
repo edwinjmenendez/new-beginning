@@ -18,10 +18,10 @@
 .navContainer {
   /* border is only on navbar */
   /* border:  1px solid #000; */
-  display: flex;
-  margin: auto;
-  /* margin-bottom: 20px; */
-  width: 80%;
+  display: flex;  /*spreads out texts in container*/
+  margin: auto; /* centers the container */
+  margin-bottom: 50px;
+  width: 800px; /* percentage or pixels? */
 }
 
 /* each navigation link */
@@ -31,3 +31,4 @@
   text-decoration: none;
   width: 100%;
 }
+
