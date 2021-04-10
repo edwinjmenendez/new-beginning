@@ -14,11 +14,12 @@
   font-family: 'New Tegomin', serif;
   font-size: 35px;
   font-weight: 200;
-  padding: 15px;
+  padding: 20px;
 }
 
 .iconsContainer {
-  padding: 0 40px 0 40px;
+  /* padding: 0 40px 0 40px; */
+  margin: 0 60px 0 60px;
 }
 
 .icon {
