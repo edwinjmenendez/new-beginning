@@ -1,9 +1,14 @@
 import React from 'react'
 
+import image from '../assets/travel.png'
+import styles from './styles/ComingSoon.css';
+
 const Travel = () => {
   return (
-    <div>
-      this is travel
+    <div className={styles.comingSoon}>
+      <h1>Travel</h1>
+      <h2>Coming Soon</h2>
+      <img src={image} />
     </div>
   )
 }

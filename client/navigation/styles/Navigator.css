@@ -21,7 +21,7 @@
   display: flex;  /*spreads out texts in container*/
   margin: auto; /* centers the container */
   margin-bottom: 50px;
-  width: 800px; /* percentage or pixels? */
+  width: 1000px; /* percentage or pixels? */
 }
 
 /* each navigation link */
