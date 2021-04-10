@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
 
-.componentCard {
+.turnAround {
   /* margin-top: 50px; */
   padding-top: 30px;
-  height: 401px;
+  /* height: 201px; */
   width: 401px;
   border-radius: 20px;
-  background-color: rgba(255,255,255,0.75);
+  background-color: #fff;
   font-family: 'New Tegomin', serif;
+  opacity: .7;
+}
+
+.turnAround img {
+  width: 300px;
 }

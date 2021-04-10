@@ -21,7 +21,7 @@ const PasswordPrompt = ({pass}) => {
 
   return (
     <div className={styles.promptContainer} >
-      <h3>ENTER PASSWORD</h3>
+      <h3>Enter Password</h3>
       <div className={styles.inputsContainer} >
         <input onChange={handleChange} type='password' placeholder='Password'/>
         <button onClick={handleClick}>ENTER</button>
