@@ -12,14 +12,14 @@
   background-color: rgb(46, 44, 44);
   color: #fff;
   font-family: 'New Tegomin', serif;
-  font-size: 35px;
+  font-size: 55px;
   font-weight: 200;
-  padding: 20px;
+  padding: 30px;
 }
 
 .iconsContainer {
   /* padding: 0 40px 0 40px; */
-  margin: 0 60px 0 60px;
+  margin: 0 150px 0 150px;
 }
 
 .icon {

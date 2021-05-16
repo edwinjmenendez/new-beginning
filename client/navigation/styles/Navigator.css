@@ -21,13 +21,16 @@
   display: flex;  /*spreads out texts in container*/
   margin: auto; /* centers the container */
   margin-bottom: 50px;
-  width: 1000px; /* percentage or pixels? */
+  width: 100%; /* percentage or pixels? */
 }
 
 /* each navigation link */
 .navLink {
+  /* border:  1px solid #000; */
+
   color: #000;
   font-family: 'New Tegomin', serif;
+  font-size: 25px;
   text-decoration: none;
   width: 100%;
 }

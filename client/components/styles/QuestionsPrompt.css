@@ -8,4 +8,43 @@
   border-radius: 20px;
   background-color: rgba(255,255,255,0.75);
   font-family: 'New Tegomin', serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.question {
+  /* margin-top: 50px; */
+  /* padding-top: 30px;
+  height: 401px;
+  width: 401px;
+  border-radius: 20px;
+  background-color: rgba(255,255,255,0.75);
+  font-family: 'New Tegomin', serif; */
+  margin: 10px 0 20px 0;
+  /* text-align: left; */
+}
+
+.question input {
+  /* margin-top: 50px; */
+  /* padding-top: 30px;
+  height: 401px;
+  width: 401px;
+  border-radius: 20px;
+  background-color: rgba(255,255,255,0.75);
+  font-family: 'New Tegomin', serif; */
+  margin-right: 20px;
+  /* text-align: left; */
+}
+
+.questions {
+  /* margin-top: 50px; */
+  /* padding-top: 30px;
+  height: 401px;
+  width: 401px;
+  border-radius: 20px;
+  background-color: rgba(255,255,255,0.75);
+  font-family: 'New Tegomin', serif; */
+  /* margin-left: 50px; */
+  text-align: left;
 }

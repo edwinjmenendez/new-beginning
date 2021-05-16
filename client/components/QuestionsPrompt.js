@@ -58,12 +58,24 @@ const QuestionsPrompt = ({turnAround}) => {
   }
 
   return (
-    <div className={styles.componentCard} onClick={handleClick} >
+    <div className={styles.componentCard}>
       <h3>{question}</h3>
-      <p>{response.first}</p>
-      <p>{response.second}</p>
-      <p>{response.third}</p>
-      {/* <p>{counter}</p> */}
+      <div className={styles.questions} >
+        <div className={styles.question} >
+          <input type="radio" name="radio"></input>
+          <span>{response.first}</span>
+        </div>
+        <div className={styles.question} >
+          <input type="radio" name="radio"></input>
+          <span>{response.second}</span>
+        </div>
+        <div className={styles.question} >
+          <input type="radio"ß name="radio"></input>
+          <span>{response.third}</span>
+        </div>
+      </div>
+        <button onClick={handleClick}>NEXT</button>
+        {/* <p>{counter}</p> */}
     </div>
   )
 }
