@@ -8,7 +8,7 @@ const PasswordPrompt = ({pass}) => {
   const [activePrompt, setActivePrompt] = useState(true)
   
   const handleClick = () => {
-    if (password === '123') {
+    if (password === 'pulga') {
       setCorrPass(true);
       pass(false, true);
     }

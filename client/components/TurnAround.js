@@ -6,7 +6,7 @@ import styles from './styles/TurnAround.css';
 const TurnAround = () => {
   return (
     <div className={styles.turnAround} >
-      <h1>Turn around or I will fuck you up</h1>
+      <h1>Turn the fuck around or I will fuck you up!</h1>
       <img src={image} />
     </div>
   )
